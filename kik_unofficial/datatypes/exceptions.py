@@ -35,5 +35,5 @@ class KikEmptyResponseException(KikErrorException):
     pass
 
 
-class KikApiException(Exception):
+class InvalidAckException(Exception):
     pass
